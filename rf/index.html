@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="REEF SHINE Thoddoo — Maldives guest house.">
+  <meta name="theme-color" content="#0b7285">
+  <title>REEF SHINE Thoddoo — Maldives Guest House</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Reef Shine home">
+      <span class="brand-mark">RS</span>
+      <span><strong>REEF SHINE</strong><small>THODDOO · MALDIVES</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav id="main-nav">
+      <a href="#home">Home</a>
+      <a href="#rooms">Rooms</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#booking">Booking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">AA THODDOO · MALDIVES</p>
+        <h1>Your island escape starts at <em>Reef Shine.</em></h1>
+        <p class="lead">A comfortable guest house for relaxing, exploring the island, snorkeling, diving, fishing and enjoying the Maldives.</p>
+        <div class="actions">
+          <a class="btn primary" href="#booking">Check availability</a>
+          <a class="btn ghost" href="https://wa.me/9607887941?text=Hello%20REEF%20SHINE%2C%20I%20would%20like%20to%20make%20an%20inquiry." target="_blank" rel="noopener">WhatsApp us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <p class="eyebrow">WELCOME TO REEF SHINE</p>
+      <h2>Stay close to the island life.</h2>
+      <p>Browse the essentials below, then send your booking request directly to our WhatsApp. No database or server is required.</p>
+    </section>
+
+    <section id="rooms" class="section">
+      <div class="section-heading"><p class="eyebrow">ACCOMMODATION</p><h2>Comfortable rooms</h2></div>
+      <div class="cards">
+        <article class="card"><div class="icon">🛏️</div><h3>Double / Twin</h3><p>Comfortable accommodation for couples or friends.</p><button class="text-btn inquire" data-subject="Double / Twin room">Ask on WhatsApp →</button></article>
+        <article class="card"><div class="icon">👨‍👩‍👧</div><h3>Family stay</h3><p>A practical option for families and small groups.</p><button class="text-btn inquire" data-subject="Family room">Ask on WhatsApp →</button></article>
+        <article class="card"><div class="icon">🌴</div><h3>Island escape</h3><p>Stay and arrange your island experiences from one place.</p><button class="text-btn inquire" data-subject="Island stay">Ask on WhatsApp →</button></article>
+      </div>
+    </section>
+
+    <section id="experiences" class="section tinted">
+      <div class="section-heading"><p class="eyebrow">EXPLORE THODDOO</p><h2>Make your stay memorable.</h2></div>
+      <div class="experience-grid">
+        <div><span>🤿</span><h3>Snorkeling & diving</h3><p>Ask us about available trips and arrangements.</p></div>
+        <div><span>🎣</span><h3>Fishing</h3><p>Send us a WhatsApp request for fishing experiences.</p></div>
+        <div><span>🚤</span><h3>Excursions</h3><p>Ask about transfers and island excursions.</p></div>
+        <div><span>🍽️</span><h3>Private dining</h3><p>Discuss dining options and special requests with us.</p></div>
+      </div>
+    </section>
+
+    <section id="booking" class="booking section">
+      <div>
+        <p class="eyebrow">BOOK DIRECT</p>
+        <h2>Send your request on WhatsApp.</h2>
+        <p>There is no database behind this form. Your details are simply placed into a WhatsApp message addressed to <strong>+960 7887941</strong>.</p>
+      </div>
+      <form id="booking-form">
+        <label>Full name<input name="name" required placeholder="Your name"></label>
+        <div class="two">
+          <label>Check-in<input type="date" name="checkin" required></label>
+          <label>Check-out<input type="date" name="checkout" required></label>
+        </div>
+        <div class="two">
+          <label>Guests<input type="number" name="guests" min="1" value="2" required></label>
+          <label>Rooms<input type="number" name="rooms" min="1" value="1" required></label>
+        </div>
+        <label>Message / special request<textarea name="message" rows="4" placeholder="Anything you would like us to know?"></textarea></label>
+        <button class="btn primary full" type="submit">Send booking request on WhatsApp</button>
+        <p class="form-note">WhatsApp will open with the message prepared for you. You still need to press Send in WhatsApp.</p>
+      </form>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div><p class="eyebrow">CONTACT</p><h2>Let's plan your stay.</h2><p>For bookings, questions, transfers or excursions, contact Reef Shine directly.</p></div>
+      <a class="whatsapp-card" href="https://wa.me/9607887941?text=Hello%20REEF%20SHINE%20Thoddoo%2C%20I%20would%20like%20some%20information." target="_blank" rel="noopener"><span>WhatsApp</span><strong>+960 7887941</strong><small>Start a conversation →</small></a>
+    </section>
+  </main>
+
+  <footer><div><strong>REEF SHINE THODDOO</strong><span>AA Thoddoo · Maldives</span></div><span>© <span id="year"></span> Reef Shine</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
